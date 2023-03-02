@@ -1,3 +1,5 @@
+import { CounterFeedback } from "./CounterFeedback/CounterFeedback";
+
 export const App = () => {
   return (
     <div
@@ -6,11 +8,10 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        fontFamily: 'Montserrat',
       }}
     >
-      React homework template
+      <CounterFeedback></CounterFeedback>
     </div>
   );
 };
